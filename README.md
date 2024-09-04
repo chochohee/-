@@ -5,3 +5,4 @@
 ## Dev history  
 - 피그마에 제안되어있는 디자인을 보고 HTML 마크업
 - 24.08.17 할 수 있는 부분까지 CSS dev중, 추후 지속적으로 develope 예정
+.
