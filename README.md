@@ -10,4 +10,5 @@
   - header 및 section 재배치
   - header의 nav position sticky로 화면 스크롤시 윗부분에서 확인할 수 있도록 처리.
   - 왼편의 writeSection CSS 구도 배치와, 메모 작성시 발행되는 liseSection의 memolist에 background-image 삽입처리.
+
     |CSS도 아직 많이 모자란 것 같다. 자꾸 이상하게 적용된다 ㅠㅠ..|
