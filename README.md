@@ -5,4 +5,9 @@
 ## Dev history  
 - 피그마에 제안되어있는 디자인을 보고 HTML 마크업
 - 24.08.17 할 수 있는 부분까지 CSS dev중, 추후 지속적으로 develope 예정
-.
+  ### 📃24.09.21
+  - index.html 재마크업
+  - header 및 section 재배치
+  - header의 nav position sticky로 화면 스크롤시 윗부분에서 확인할 수 있도록 처리.
+  - 왼편의 writeSection CSS 구도 배치와, 메모 작성시 발행되는 liseSection의 memolist에 background-image 삽입처리.
+    |CSS도 아직 많이 모자란 것 같다. 자꾸 이상하게 적용된다 ㅠㅠ..|
