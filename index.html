@@ -9,24 +9,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>두근두근비밀일기</title>
     <link rel="icon" href="./src/favicon.svg" />
-    <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
   </head>
   <body>
-    <div id="wrapper">
-      <header>
+    <div class="wrapper">
+    <header>
+      
       <nav>
-      <h1><img src="./src/두근두근비밀일기logo.svg" alt="두근두근비밀일기"></h1>
-      <div class="container">
+        <h1><img src="./src/두근두근비밀일기logo.svg" alt="두근두근비밀일기"></h1>
+        <div class="container">
         <span class="welcome">환영합니다 <strong>홍길동</strong>님!</span>
         <button>
           <span>로그아웃</span>
         </button>
-      </div>
-    </nav>
+      </nav>
     </header>
     <main>
-      <section>
+      <section class="writeSection">
         <h2>2023.02.27의 비밀일기</h2>
           <form action="" method="get" name="myForm">
             <input type="text" placeholder="제목" class="titleBox" />
@@ -34,22 +34,23 @@
               rows="15"
               cols="30"
               minlength="1"
-              maxlength="300"
               placeholder="오늘의 비밀은 무엇인가요?"
             ></textarea>
             <button type="submit">작성하기</button>
           </form>
       </section>
-      <section>
+      <section class="listSection">
         <h2 class="sr_only">일기 목록</h2>
         <ol>
           <li>
             <article>
+              <div class="container">
               <h3>
             얼마나 그들은 몸이 것이다.보라, 있으랴?
           </h3>
           <time datetime="2023-02-24">2023.02.24.THU</time>
           <p>얼마나 그들은 몸이 것이다.보라, 있으랴? 실로 풀이 인생을 인류의 피다. 피부가 뜨고, 굳세게 풀이 없는 구할 피가 인생을 것이다. 더운지라 같이, 피는 바로 쓸쓸하랴? 이는 갑 따뜻한 때문이다. 것은 하여도 두손을 듣는다. 우리는 끓는 돋고, 이상, 뭇 같이, 고동을 만천하의 미묘한 아니다. 꽃 밥을 풍부하게 불어 없는 갑 산야에 불러 청춘의 봄바람이다. 못하다 바로 우리의 이것은 가슴이 동산에는 있는가? 때까지 바이며, 따뜻한 찬미를 설산에서 이상은 풀이 보이는 밝은 듣는다. </p>
+        </div>
         </article></li>
         <li>
           <article>
@@ -75,6 +76,7 @@
         </ol>
       </section>
     </main>
+  </div>
 </body>
 </div>
 </html>
