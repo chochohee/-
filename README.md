@@ -9,7 +9,7 @@
   - index.html 재마크업
   - header 및 section 재배치
   - header의 nav position sticky로 화면 스크롤시 윗부분에서 확인할 수 있도록 처리.
-  - 왼편의 writeSection CSS 구도 배치와, 메모 작성시 발행되는 liseSection의 memolist에 background-image 삽입처리.
+  - 왼편의 writeSection CSS 구도 배치와, 메모 작성시 발행되는 liseSection의 memolist에 background-image 삽입처리.</br>
     |CSS도 아직 많이 모자란 것 같다. 자꾸 이상하게 적용되고 배치한번 하는데 하루종일 걸린다.. ㅠㅠ.. </br>
     작업시 문제가되는 issue들을 github의 issue에 작성하고, 해결하려고 하는중. 깃허브 사용에 익숙해지자.|
     |:---|
